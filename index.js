@@ -1,5 +1,5 @@
-let drink = ["Sprite", "Water", "Expired ", "Milk", "Pickle Juice"];
-let food = ["Omakase", "Bacon Burger", "Grilled chicken salad", "Oven-baked risotto", "Mushroom Pizza"];
+let drink = ["Sprite", "Water", "Milk", "Pickle Juice"];
+let food = ["Omakase", " a grilled chicken salad", " an oven-baked risotto", "Mushroom Pizza"];
 let appetizer = ["Taquitos","Calamari", "Chicken Wings", "Truffle Fries", "Garlic Bread"];
 
  const randomIndex = array => {
@@ -26,8 +26,8 @@ const createMessage = () => {
     let food = getFood();
      let drink = getDrink();
       let appetizer = getApp();
-      console.log(`Your starting off with ${appetizer} and ${drink}. Your main course is ${food}, enjoy!`);
+      document.getElementById("header").innerHTML = `Your starting off with ${appetizer} and ${drink}. Your main course is ${food}, enjoy!`;
+
       
 };
 createMessage();
-

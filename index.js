@@ -26,7 +26,7 @@ const createMessage = () => {
     let food = getFood();
      let drink = getDrink();
       let appetizer = getApp();
-      document.getElementById("header").innerHTML = `Your starting off with ${appetizer} and ${drink}. Your main course is ${food}, enjoy!`;
+      document.getElementById("header").innerHTML = `ur starting off with ${appetizer} and ${drink}. Your main course is ${food}, enjoy!`;
 
       
 };
